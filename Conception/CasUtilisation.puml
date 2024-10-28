@@ -1,0 +1,15 @@
+@startuml
+left to right direction
+
+actor Utilisateur
+actor Administrateur
+rectangle "Systeme" {
+    usecase "CRUD article" as UC_ConsulterArticles
+    usecase "CRUD categorie" as UC_Categorie
+    usecase "consute article" as UC_article
+        Administrateur --> UC_ConsulterArticles
+        Administrateur --> UC_Categorie
+        Utilisateur --> UC_article
+}
+@enduml
+

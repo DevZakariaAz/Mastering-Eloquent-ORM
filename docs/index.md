@@ -1,8 +1,7 @@
+---
 layout: default
 chapitre: true
 ---
-
-# Rapport de Laravel : Créer une base de données pour un blog
 
 ## Table des matières
 {% assign pages = site.pages | sort: "order" %}

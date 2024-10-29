@@ -1,5 +1,5 @@
 ---
-layout: section
+layout: default
 title: Introduction
 chapitre: true
 order: 1

@@ -2,7 +2,7 @@
 layout: default
 title: Introduction
 chapitre: true
-order: 1
+order: 2
 ---
 
 ## Équipe de réalisation

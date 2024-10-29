@@ -1,5 +1,5 @@
 ---
-layout: section
+layout: default
 title: Conclusion
 chapitre: true
 order: 7

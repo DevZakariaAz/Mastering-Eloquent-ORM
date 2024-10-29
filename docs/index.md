@@ -1,20 +1,11 @@
 ---
 layout: default
+title: Rapport de Laravel : Créer une base de données pour un blog
 chapitre: true
 ---
 
-## Table des matières
-{% assign pages = site.pages | sort: "order" %}
-{% for page in pages %}
-  {% if page.chapitre %}
-    - {{ page.title }}
-  {% endif %}
-{% endfor %}
+# Table des matières
+- [Introduction](/Introduction.html)
+- [Conclusion](/conclusion.html)
 
-
-{% assign pages = site.pages | sort: "order" %}
-{% for page in pages %}
- {% if page.chapitre %}
-    {{- page.content | markdownify -}}
-  {% endif %}
-{% endfor %}
+{{ content }}

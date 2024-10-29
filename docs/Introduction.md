@@ -1,7 +1,12 @@
 ---
+layout: section
+title: Introduction
 chapitre: true
-order: 0
+order: 1
 ---
+
+## Introduction
+Ce rapport présente un guide sur la création d'une base de données pour un blog en utilisant Laravel.
 
 ### **Équipe de réalisation :**
 - Zakaria Azizi  
@@ -12,3 +17,4 @@ order: 0
 
 ### **Supervisé par :**
 Monsieur Fouad ESSARRAJ
+

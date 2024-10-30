@@ -3,8 +3,8 @@ left to right direction
 actor User
 
 rectangle "Prototype" {
-    User -- (Add Article)
-    User -- (View Articles)
+    Visiteur -- (Ajouter un article)
+    Visiteur -- (Voir les articles)
 }
 
 @enduml

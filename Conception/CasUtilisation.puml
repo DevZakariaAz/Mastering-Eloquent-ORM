@@ -1,15 +1,18 @@
-@startuml
-left to right direction
+    @startuml
+    left to right direction
 
-actor Utilisateur
-actor Administrateur
-rectangle "Systeme" {
-    usecase "CRUD article" as UC_ConsulterArticles
-    usecase "CRUD categorie" as UC_Categorie
-    usecase "consute article" as UC_article
-        Administrateur --> UC_ConsulterArticles
-        Administrateur --> UC_Categorie
-        Utilisateur --> UC_article
-}
-@enduml
+    actor Visiteur
+    actor Blogueur
 
+    rectangle "Système" {
+        usecase "Consulter article" as UC_ConsulterArticles
+        usecase "CRUD Catégorie" as UC_Categorie
+        usecase "CRUD Article" as UC_Article  
+        usecase "Authentification" as Auth
+    }
+    Blogueur -- UC_Article
+    Blogueur -- UC_Categorie
+    Visiteur -- UC_ConsulterArticles
+    UC_Categorie .-> Auth : "include"
+    UC_Article .-> Auth : "include"
+    @enduml

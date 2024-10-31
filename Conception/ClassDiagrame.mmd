@@ -1,0 +1,26 @@
+classDiagram
+    class Article {
+        +int id
+        +String titre
+        +String contenu
+        +Date date_de_publication
+        +int auteur_id
+        +int categorie_id
+    }
+    
+    class Categorie {
+        +int id
+        +String nom
+    }
+    
+    class Utilisateur {
+        +int id
+        +String nom
+        +String email
+        +String mot_de_passe
+    }
+    
+    Categorie "1" -- "0..*" Article 
+    Utilisateur "1" -- "0..*" Article 
+
+

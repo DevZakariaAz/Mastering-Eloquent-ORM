@@ -4,11 +4,11 @@ Bienvenue dans le rapport sur la maîtrise d'Eloquent ORM dans Laravel. Ce docum
 
 ## Table des matières
 
-- [Introduction](introduction.md)
-- [Chapitre 1 : 2tup](chapitre1.md)
-- [Chapitre 2 : Besoin](chapitre2.md)
-- [Chapitre 3 : Branche fonctionnelle](chapitre3.md)
-- [Chapitre 4 : Branche technique](chapitre4.md)
+- [Introduction](Introduction.md)
+- [Chapitre 1 : 2tup](Chapitre1.md)
+- [Chapitre 2 : Besoin](Chapitre2.md)
+- [Chapitre 3 : Branche fonctionnelle](Chapitre3.md)
+- [Chapitre 4 : Branche technique](Chapitre4.md)
 - [Conclusion](conclusion.md)
 
 ---

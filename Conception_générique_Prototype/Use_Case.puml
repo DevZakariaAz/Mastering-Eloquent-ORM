@@ -1,12 +1,12 @@
 @startuml
 left to right direction
-actor Visiteur
+actor Admin
 
 rectangle "Prototype" {
-    Visiteur -- (Ajouter un article)
-    Visiteur -- (Voir les articles)
-    Visiteur -- (Ajouter des Categories)
-    Visiteur -- (Afficher les catégories)
+    Admin -- (Ajouter un article)
+    Admin -- (Voir les articles)
+    Admin -- (Ajouter des Categories)
+    Admin -- (Afficher les catégories)
 }
 
 @enduml

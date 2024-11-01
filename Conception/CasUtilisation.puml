@@ -13,6 +13,6 @@
     Blogueur -- UC_Article
     Blogueur -- UC_Categorie
     Visiteur -- UC_ConsulterArticles
-    UC_Categorie .-> Auth : "include"
-    UC_Article .-> Auth : "include"
+    UC_Categorie .-> Auth : "<<include>>"
+    UC_Article .-> Auth : "<<include>>"
     @enduml

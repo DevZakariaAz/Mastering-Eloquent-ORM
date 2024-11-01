@@ -29,3 +29,11 @@ order: 4
 
 #### Consulter Articles
 - **Consulter des articles** : Le visiteur peut lire les articles publiés sur le blog, avec la possibilité de naviguer par catégorie.
+
+### Diagramme de cas d'utilisation :
+
+![Cas d'Utilisation](image-1.png)
+
+### Diagramme de classes :
+
+![Diagramme de classes](image-2.png)

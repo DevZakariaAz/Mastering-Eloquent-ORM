@@ -1,0 +1,17 @@
+I"�<h2 id="équipe-de-réalisation">Équipe de réalisation</h2>
+<ul>
+  <li><strong>Zakaria Azizi</strong></li>
+  <li><strong>Fahd Suirita</strong></li>
+  <li><strong>Oussama Bardich</strong></li>
+  <li><strong>Jarane Hamza</strong></li>
+  <li><strong>Tamraoui Abdelouahab</strong></li>
+</ul>
+
+<h2 id="supervisé-par">Supervisé par</h2>
+<p><strong>Monsieur Fouad ESSARRAJ</strong></p>
+
+<h2 id="introduction">Introduction</h2>
+<p>Dans ce rapport, nous explorerons la création d’une base de données pour un blog en utilisant Laravel. Nous aborderons les défis et les solutions proposées. Laravel est un framework PHP qui facilite le développement d’applications web robustes et évolutives. Ce rapport vise à présenter les étapes clés de la mise en place de la base de données, ainsi que les meilleures pratiques à suivre.</p>
+
+<p>Pour en savoir plus sur Laravel, consultez la <a href="https://laravel.com/docs"><strong><em>documentation officielle</em></strong></a>.</p>
+:ET

@@ -1,0 +1,138 @@
+I"�<p>Bienvenue dans le rapport sur la maîtrise d’Eloquent ORM dans Laravel. Ce document explore les concepts clés et les pratiques pour gérer efficacement les données en utilisant Laravel.</p>
+
+<h2 id="table-des-matières">Table des matières</h2>
+
+<ul>
+  <li><a href="#introduction">Introduction</a></li>
+  <li><a href="#chapitre2tup">Chapitre 1 : 2tup</a></li>
+  <li><a href="#chapitre-2-besoin">Chapitre 2 : Besoin</a></li>
+  <li><a href="#chapitre-3-branche-fonctionnelle">Chapitre 3 : Branche fonctionnelle</a></li>
+  <li><a href="#chapitre-4-branche-technique">Chapitre 4 : Branche technique</a></li>
+  <li><a href="#conclusion">Conclusion</a></li>
+</ul>
+
+<hr />
+
+<h2 id="introduction">Introduction</h2>
+<p><a id="introduction"></a>
+—
+title: “Introduction”
+layout: report_layout  # Ensure this matches your layout file name
+chapitre: true
+order: 1
+—</p>
+
+<h2 id="équipe-de-réalisation">Équipe de réalisation</h2>
+<ul>
+  <li><strong>Zakaria Azizi</strong></li>
+  <li><strong>Fahd Suirita</strong></li>
+  <li><strong>Oussama Bardich</strong></li>
+  <li><strong>Jarane Hamza</strong></li>
+  <li><strong>Tamraoui Abdelouahab</strong></li>
+</ul>
+
+<h2 id="supervisé-par">Supervisé par</h2>
+<p><strong>Monsieur Fouad ESSARRAJ</strong></p>
+
+<h2 id="introduction-1">Introduction</h2>
+<p>Dans ce rapport, nous explorerons la création d’une base de données pour un blog en utilisant Laravel. Nous aborderons les défis et les solutions proposées. Laravel est un framework PHP qui facilite le développement d’applications web robustes et évolutives. Ce rapport vise à présenter les étapes clés de la mise en place de la base de données, ainsi que les meilleures pratiques à suivre.</p>
+
+<p>Pour en savoir plus sur Laravel, consultez la <a href="https://laravel.com/docs"><strong><em>documentation officielle</em></strong></a>.</p>
+
+<h2 id="chapitre-1--2tup">Chapitre 1 : 2tup</h2>
+<p><a id="chapitre2tup"></a>
+—
+title: “Chapter 1”
+layout: report_layout  # Adjust to your layout name
+chapitre: true         # This should be set to true
+order: 2               # Ensure you have an order key if needed
+—</p>
+<h1 id="chapitre-1--2tup-1">Chapitre 1 : 2tup</h1>
+
+<p>dans cette chapitre nous allons voir methode 2tup qui est une methode de conception de projet qui permet de concevoir et structurer une base de données pour un blog simple avec Laravel, incluant les entités de base (articles, catégories, utilisateurs) et les relations nécessaires pour faciliter l’organisation du contenu.</p>
+
+<p><img src="image.png" alt="alt text" /></p>
+
+<h2 id="chapitre-2--besoin">Chapitre 2 : Besoin</h2>
+<p><a id="chapitre-2-besoin"></a>
+—
+title: “Chapitre 2 : Besoin”
+layout: report_layout<br />
+chapitre: true
+order: 3
+—</p>
+<h1 id="chapitre-2--besoin-1">Chapitre 2 : Besoin</h1>
+<p>Concevoir et structurer une base de données pour un blog simple avec Laravel, incluant les entités de base (articles, catégories, utilisateurs) et les relations nécessaires pour faciliter l’organisation du contenu. Ce projet servira de fondation pour des fonctionnalités avancées dans le futur, permettant la gestion et la navigation efficace dans un blog.</p>
+
+<h2 id="chapitre-3--branche-fonctionnelle">Chapitre 3 : Branche fonctionnelle</h2>
+<p><a id="chapitre-3-branche-fonctionnelle"></a>
+—
+title: “Chapitre 3 : Branche fonctionnelle”
+layout: report_layout<br />
+chapitre: true
+order: 4
+—</p>
+<h1 id="chapitre-3--branche-fonctionnelle-1">Chapitre 3 : Branche fonctionnelle</h1>
+<h2 id="cas-dutilisation-de-lapplication-de-blog">Cas d’Utilisation de l’Application de Blog</h2>
+
+<h3 id="acteurs">Acteurs</h3>
+<ul>
+  <li><strong>Blogueur</strong> : Utilisateur qui peut créer, lire, mettre à jour et supprimer des articles et des catégories.</li>
+  <li><strong>Visiteur</strong> : Utilisateur qui peut consulter les articles publiés sur le blog.</li>
+</ul>
+
+<h3 id="fonctionnalités">Fonctionnalités</h3>
+
+<h4 id="crud-articles">CRUD Articles</h4>
+<ul>
+  <li><strong>Créer un article</strong> : Le blogueur peut créer un nouvel article en fournissant un titre, un contenu et en sélectionnant une catégorie.</li>
+  <li><strong>Lire les articles</strong> : Le blogueur peut visualiser tous les articles existants et leurs détails.</li>
+  <li><strong>Mettre à jour un article</strong> : Le blogueur peut modifier les informations d’un article existant.</li>
+  <li><strong>Supprimer un article</strong> : Le blogueur peut supprimer un article qui n’est plus nécessaire.</li>
+</ul>
+
+<h4 id="crud-catégories">CRUD Catégories</h4>
+<ul>
+  <li><strong>Créer une catégorie</strong> : Le blogueur peut ajouter une nouvelle catégorie pour organiser les articles.</li>
+  <li><strong>Lire les catégories</strong> : Le blogueur peut visualiser toutes les catégories disponibles.</li>
+  <li><strong>Mettre à jour une catégorie</strong> : Le blogueur peut modifier le nom d’une catégorie existante.</li>
+  <li><strong>Supprimer une catégorie</strong> : Le blogueur peut supprimer une catégorie qui n’est plus utilisée.</li>
+</ul>
+
+<h4 id="consulter-articles">Consulter Articles</h4>
+<ul>
+  <li><strong>Consulter des articles</strong> : Le visiteur peut lire les articles publiés sur le blog, avec la possibilité de naviguer par catégorie.</li>
+</ul>
+
+<h2 id="chapitre-4--branche-technique">Chapitre 4 : Branche technique</h2>
+<p><a id="chapitre-4-branche-technique"></a>
+—
+title: “Chapitre 4 : Branche technique”
+layout: report_layout<br />
+chapitre: true
+order: 5
+—</p>
+
+<h1 id="chapitre-4--branche-technique-1">Chapitre 4 : Branche technique</h1>
+<h2 id="1-analyse-technique">1. Analyse technique</h2>
+
+<h3 id="objectif">Objectif</h3>
+<p>Évaluer la faisabilité technique du projet, étudier les technologies disponibles, et planifier l’architecture technique.</p>
+
+<ul>
+  <li><strong>Étude des technologies disponibles</strong> : Rechercher les technologies, frameworks, et outils adaptés.</li>
+  <li><strong>Architecture du système</strong> : Définir la structure des bases de données, serveurs, et interfaces.</li>
+  <li><strong>Évaluation des risques</strong> : Identifier les risques techniques et proposer des solutions pour les atténuer.</li>
+</ul>
+
+<h2 id="conclusion">Conclusion</h2>
+<p><a id="conclusion"></a>
+—
+title: “Conclusion “
+layout: report_layout<br />
+chapitre: true
+order: 6
+—</p>
+<h1 id="conclusion-1">Conclusion</h1>
+<p>Le rapport a exploré les différentes étapes nécessaires pour concevoir et mettre en œuvre une base de données de blog avec Laravel.</p>
+:ET

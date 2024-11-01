@@ -4,11 +4,13 @@ classDiagram
         +String titre
         +String contenu
         +Date date_de_publication
-        +int auteur_id
-        +int categorie_id
     }
     
     class Categorie {
+        +int id
+        +String nom
+    }
+    class Auteur {
         +int id
         +String nom
     }

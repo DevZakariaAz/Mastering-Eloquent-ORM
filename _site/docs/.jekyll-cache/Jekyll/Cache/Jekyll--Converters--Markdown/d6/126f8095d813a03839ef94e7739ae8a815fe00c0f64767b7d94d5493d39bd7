@@ -1,0 +1,16 @@
+I"�<p>Bienvenue dans le rapport sur la maîtrise d’Eloquent ORM dans Laravel. Ce document explore les concepts clés et les pratiques pour gérer efficacement les données en utilisant Laravel.</p>
+
+<h2 id="table-des-matières">Table des matières</h2>
+
+<ul>
+  <li><a href="#introduction">Introduction</a></li>
+  <li><a href="#chapitre-1-2tup">Chapitre 1 : 2tup</a></li>
+  <li><a href="#chapitre-2-besoin">Chapitre 2 : Besoin</a></li>
+  <li><a href="#chapitre-3-branche-fonctionnelle">Chapitre 3 : Branche fonctionnelle</a></li>
+  <li><a href="#chapitre-4-branche-technique">Chapitre 4 : Branche technique</a></li>
+  <li><a href="#conclusion">Conclusion</a></li>
+</ul>
+
+<hr />
+
+:ET

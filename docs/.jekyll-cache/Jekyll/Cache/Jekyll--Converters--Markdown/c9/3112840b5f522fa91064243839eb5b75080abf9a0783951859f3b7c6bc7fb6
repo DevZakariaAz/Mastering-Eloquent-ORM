@@ -1,0 +1,32 @@
+I"	<p>#</p>
+<h2 id="cas-dutilisation-de-lapplication-de-blog">Cas d’Utilisation de l’Application de Blog</h2>
+
+<h3 id="acteurs">Acteurs</h3>
+<ul>
+  <li><strong>Blogueur</strong> : Utilisateur qui peut créer, lire, mettre à jour et supprimer des articles et des catégories.</li>
+  <li><strong>Visiteur</strong> : Utilisateur qui peut consulter les articles publiés sur le blog.</li>
+</ul>
+
+<h3 id="fonctionnalités">Fonctionnalités</h3>
+
+<h4 id="crud-articles">CRUD Articles</h4>
+<ul>
+  <li><strong>Créer un article</strong> : Le blogueur peut créer un nouvel article en fournissant un titre, un contenu et en sélectionnant une catégorie.</li>
+  <li><strong>Lire les articles</strong> : Le blogueur peut visualiser tous les articles existants et leurs détails.</li>
+  <li><strong>Mettre à jour un article</strong> : Le blogueur peut modifier les informations d’un article existant.</li>
+  <li><strong>Supprimer un article</strong> : Le blogueur peut supprimer un article qui n’est plus nécessaire.</li>
+</ul>
+
+<h4 id="crud-catégories">CRUD Catégories</h4>
+<ul>
+  <li><strong>Créer une catégorie</strong> : Le blogueur peut ajouter une nouvelle catégorie pour organiser les articles.</li>
+  <li><strong>Lire les catégories</strong> : Le blogueur peut visualiser toutes les catégories disponibles.</li>
+  <li><strong>Mettre à jour une catégorie</strong> : Le blogueur peut modifier le nom d’une catégorie existante.</li>
+  <li><strong>Supprimer une catégorie</strong> : Le blogueur peut supprimer une catégorie qui n’est plus utilisée.</li>
+</ul>
+
+<h4 id="consulter-articles">Consulter Articles</h4>
+<ul>
+  <li><strong>Consulter des articles</strong> : Le visiteur peut lire les articles publiés sur le blog, avec la possibilité de naviguer par catégorie.</li>
+</ul>
+:ET

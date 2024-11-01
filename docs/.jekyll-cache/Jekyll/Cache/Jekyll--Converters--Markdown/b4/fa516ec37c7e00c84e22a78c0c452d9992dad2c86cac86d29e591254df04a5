@@ -1,6 +1,0 @@
-I"�<h1 id="chapitre-1--2tup">Chapitre 1 : 2tup</h1>
-
-<p>dans cette chapitre nous allons voir methode 2tup qui est une methode de conception de projet qui permet de concevoir et structurer une base de données pour un blog simple avec Laravel, incluant les entités de base (articles, catégories, utilisateurs) et les relations nécessaires pour faciliter l’organisation du contenu.</p>
-
-<p><img src="image.png" alt="alt text" /></p>
-:ET
